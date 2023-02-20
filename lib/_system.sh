@@ -228,7 +228,7 @@ system_pm2_install() {
   sleep 2
 
   sudo su - root <<EOF
-  npm install -g pm2
+  npm install --force -g pm2
   pm2 startup ubuntu -u deploy
   env PATH=\$PATH:/usr/bin pm2 startup ubuntu -u deploy --hp /home/deploy
 EOF

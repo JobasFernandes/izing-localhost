@@ -306,7 +306,7 @@ backend_node_dependencies() {
 
   sudo su - deploy <<EOF
   cd /home/deploy/izing.io/backend
-  npm install
+  npm install --force
 EOF
 
   sleep 2
@@ -326,7 +326,7 @@ backend_node_build() {
 
   sudo su - deploy <<EOF
   cd /home/deploy/izing.io/backend
-  npm install
+  npm install --force
   npm run build
 EOF
 
@@ -349,7 +349,7 @@ backend_update() {
   cd /home/deploy/izing.io
   git pull
   cd /home/deploy/izing.io/backend
-  npm install
+  npm install --force
   rm -rf dist 
   npm run build
   npx sequelize db:migrate

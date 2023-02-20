@@ -54,7 +54,7 @@ frontend_node_dependencies() {
 
   sudo su - deploy <<EOF
   cd /home/deploy/izing.io/frontend
-  npm install
+  npm install --force
 EOF
 
   sleep 2
@@ -74,7 +74,7 @@ frontend_node_quasar() {
 
   sudo su - root <<EOF
   cd /home/deploy/izing.io/frontend
-  npm install -g @quasar/cli
+  npm install --force -g @quasar/cli
 
 EOF
 
@@ -121,7 +121,7 @@ frontend_update() {
   cd /home/deploy/izing.io
   git pull
   cd /home/deploy/izing.io/frontend
-  npm install
+  npm install --force
   quasar build -P -m pwa
 
 
