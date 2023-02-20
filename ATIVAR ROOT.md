@@ -6,6 +6,14 @@ sudo passwd root
 ```
 Digite a senha do seu usuario e depois ele pede uma nova senha para o usuario root e confirme a senha
 
+Rode o comando
+```bash
+su root
+```
+
+<pre class="terminal"><code class="terminal-line" prefix="$">sudo nano /etc/postgresql/15/main/pg_hba.conf </code>
+</pre>
+
 - Permita o usuario root acesso SSH
 ```bash
 nano /etc/ssh/sshd_config
