@@ -25,12 +25,12 @@ git clone https://github.com/JobasFernandes/izing-localhost.git
 
 Tornar o arquivo executável
 ```bash
-sudo chmod +x ./izing-local/izing
+sudo chmod +x ./izing-localhost/izing
 ```
 
 Entrar na pasta da instalação
 ```bash
-cd ./izing-local
+cd ./izing-localhost
 ```
 
 Executar a instalação
