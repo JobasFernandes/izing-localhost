@@ -41,9 +41,9 @@ sudo ./izing
 ** Ao solicitar os endereços de frontend, backend e admin utilize o IP local do seu Ubuntu e a porta correspondente abaixo
 
 ### Exemplos
-- frontend ➜ SEIIP:3333
-- backend ➜ SEIIP:3000
-- admin ➜ SEIIP:3334
+- frontend ➜ SEUIP:3333
+- backend ➜ SEUIP:3000
+- admin ➜ SEUIP:3334
 
 ### Informações Adicionais
 
