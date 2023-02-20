@@ -18,13 +18,15 @@ Digite a senha do seu usuario e depois ele pede uma nova senha para o usuario ro
 nano /etc/ssh/sshd_config
 ```
 Você vai encontrar algo como
-| # Authentication:
+```
+# Authentication:
 
 #LoginGraceTime 2m
 #PermitRootLogin prohibit-password
 #StrictModes yes
 #MaxAuthTries 6
 #MaxSessions 10
+```
 
 ## INSTALAÇÃO EM LOCALHOST
 
