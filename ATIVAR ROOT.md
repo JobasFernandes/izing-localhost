@@ -6,18 +6,16 @@ sudo passwd root
 ```
 Digite a senha do seu usuario e depois ele pede uma nova senha para o usuario root e confirme a senha
 
-Rode o comando
+Rode o comando abaixo para usar o terminal como root
 ```bash
-su root
+sudo su root
 ```
 
-<pre class="terminal"><code class="terminal-line" prefix="$">sudo nano /etc/postgresql/15/main/pg_hba.conf </code>
-</pre>
-
-- Permita o usuario root acesso SSH
+- Permita o usuario root acesso SSH editando o arquivo abaixo
 ```bash
 nano /etc/ssh/sshd_config
 ```
+
 Você vai encontrar algo como:
 ```
 # Authentication:
@@ -28,6 +26,7 @@ Você vai encontrar algo como:
 #MaxAuthTries 6
 #MaxSessions 10
 ```
+
 Deixe tudo como abaixo
 ```
 # Authentication:
