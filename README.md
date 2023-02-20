@@ -47,5 +47,5 @@ sudo ./izing
 
 ### Informações Adicionais
 
-Baseado no repo do @Silvioerick
+Baseado no repo do [Silvioerick](https://github.com/Silvioerick/izing.io.installer-master)
 
