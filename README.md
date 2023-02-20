@@ -20,7 +20,7 @@ sudo apt install -y git
 
 Clonar este repositório
 ```bash
-git clone https://github.com/JobasFernandes/izing-local.git
+git clone https://github.com/JobasFernandes/izing-localhost.git
 ```
 
 Tornar o arquivo executável
