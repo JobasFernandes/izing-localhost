@@ -3,7 +3,7 @@
 get_frontend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o domínio da interface web:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o IP e PORTA do seu Frontend:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " frontend_url
 }
@@ -11,7 +11,7 @@ get_frontend_url() {
 get_backend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o domínio da sua API:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o IP e PORTA do seu Backend:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " backend_url
 }
@@ -19,7 +19,7 @@ get_backend_url() {
 get_admin_frontend_url() {
 
   print_banner
-  printf "${WHITE} 💻 Digite o domínio da interface web Admin:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o IP e PORTA do seu Admin:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " admin_frontend_url
 }
@@ -29,7 +29,7 @@ get_admin_frontend_url() {
 get_deploy_pass() {
 
   print_banner
-  printf "${WHITE} 💻 Digite uma senha para o Usuario Deploy:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite a senha para o Usuario Deploy (SEM SIMBOLOS):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " deploy_password
 }
@@ -40,7 +40,7 @@ get_deploy_pass() {
 get_redis_pass() {
 
   print_banner
-  printf "${WHITE} 💻 Digite uma senha para o Redis:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite uma senha para o Redis (SEM SIMBOLOS):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " redis_pass
 }
@@ -67,7 +67,7 @@ get_db_user() {
 get_db_pass() {
 
   print_banner
-  printf "${WHITE} 💻 Digite uma senha para o Banco de Dados:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite uma senha para o Banco de Dados (SEM SIMBOLOS):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " db_pass
 }
