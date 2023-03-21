@@ -1,5 +1,13 @@
 #!/bin/bash
 
+get_link_git() {
+  
+  print_banner
+  printf "${WHITE} 💻 Insira o link da sua instalação IZING que deseja instalar:${GRAY_LIGHT}"
+  printf "\n\n"
+  read -p "> " link_git
+}
+
 get_frontend_url() {
   
   print_banner
