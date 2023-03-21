@@ -13,29 +13,9 @@ Atualizar o Ubuntu
 sudo apt -y update && apt -y upgrade
 ```
 
-Instalar o Git
+Iniciar Instalação
 ```bash
-sudo apt install -y git
-```
-
-Clonar este repositório
-```bash
-git clone https://github.com/JobasFernandes/izing-localhost.git
-```
-
-Tornar o arquivo executável
-```bash
-sudo chmod +x ./izing-localhost/izing
-```
-
-Entrar na pasta da instalação
-```bash
-cd ./izing-localhost
-```
-
-Executar a instalação
-```bash
-sudo ./izing
+sudo apt install -y git && git clone https://github.com/JobasFernandes/izing-localhost.git && sudo chmod +x ./izing-localhost/izing && cd ./izing-localhost && sudo ./izing
 ```
 
 - Todas as informações necessárias para realizar a instalação irão ser solicitadas após executar
