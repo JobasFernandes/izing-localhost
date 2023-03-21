@@ -83,6 +83,7 @@ get_db_pass() {
 
 get_urls() {
   
+  get_link_git
   get_frontend_url
   get_backend_url
   get_admin_frontend_url
